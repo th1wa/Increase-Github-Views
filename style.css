@@ -1,0 +1,106 @@
+/* CSS Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main container with animated gradient background */
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #6a11cb, #2575fc, #ec008c);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Keyframes for the background animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Main heading style */
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem); /* Responsive font size */
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+}
+
+/* Styling for input fields with glassmorphism effect */
+.User-Name-Input,
+.Quantity-Increase-Input {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    margin: 15px auto;
+    padding: 18px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); /* For Safari support */
+}
+
+/* Placeholder text style */
+.User-Name-Input::placeholder,
+.Quantity-Increase-Input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Focus effect for input fields */
+.User-Name-Input:focus,
+.Quantity-Increase-Input:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Submit button with gradient and hover effect */
+.Submit-Btn {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem); /* Responsive font size */
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    border: none;
+    background: linear-gradient(45deg, #ff007f, #ffaf00);
+    color: white;
+    margin: 30px auto;
+    padding: 15px 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+}
+
+.Submit-Btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #ffaf00, #ff007f);
+}
