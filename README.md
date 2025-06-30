@@ -23,11 +23,14 @@ Here's a sneak peek of the project UI:
 For this tool to work correctly, you must allow pop-ups from the website. Modern browsers block pop-ups by default as a security measure.
 Follow these steps to enable pop-ups:
 
-  1. After entering your details and clicking "Submit," your browser will likely block the pop-ups.
-  2. Look for a "Pop-ups blocked" icon in your browser's address bar (usually on the right side).
-  3. Click on this icon. A dialog box will appear.
-  4. In the dialog, select the option that says "Always allow pop-ups and redirects from [website name]".
-  5. Click the "Done" button.
-  6. Run the script again, and it will now work as intended.
+    📥 Submit your details. Your browser will block the pop-ups and show an icon in the address bar.
+    🖱️ Click the icon. It usually looks like a window with a red 'X'.
+    ✅ Choose "Always allow pop-ups..." from the dialog that appears.
+    💾 Click "Done" to save your choice.
+    🔁 Run the tool again. It should now work perfectly!
 
 ![Pop-ups blocked](https://github.com/user-attachments/assets/29f6bc5d-ecb3-4352-9d49-a454cdbe6f04)
+
+### 📝 License
+
+This project is licensed under the MIT License.
