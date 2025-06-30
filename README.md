@@ -9,7 +9,7 @@ This project aims to help increase the number of views on your GitHub profile. B
 ## Usage
 
 To start increasing your GitHub profile views:
-1. Visit the project website: [Increase Profile Views](https://increase-profile-views.vercel.app).
+1. Visit the project website: [Increase Profile Views](https://increase-github-views.vercel.app).
 2. Enter your GitHub username and the number of views you want to add.
 3. Press Enter and watch the magic happen!
 
