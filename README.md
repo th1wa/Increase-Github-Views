@@ -16,7 +16,7 @@ To start increasing your GitHub profile views:
 ## Project UI
 
 Here's a sneak peek of the project UI:
-![Increase Profile Views UI](https://github.com/th1wa/Increase-Profile-Views/assets/121414309/02fea562-7768-4c05-a5f5-75ee84cbe309)
+![Increase Profile Views UI](https://github.com/user-attachments/assets/72c8d5dd-d747-4331-aa49-19c8e5bd0a2d).
 
 ## Known Issues
 
